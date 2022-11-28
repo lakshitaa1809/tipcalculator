@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Front End Developer- Tip calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h4>SPLI<br />TTER</h4>
+      <div class="main-content">
+        <div class="content">
+          <div class="billicon">
+        <label for="bill"> Bill<span id="error"</span></label><br />
+        <i class="fa fa-usd icon"></i>
+        <input
+          type="Number"
+          class="billamount"
+          id="billamount"
+          placeholder="0" 
+        /></div>
+        <div class="discountbutton">
+          <label for="Selecttip">Select Tip %</label>
+          <div class="button">
+            <button class="five" id="five">5%</button>
+            <button class="ten" id="ten">10%</button>
+            <button class="fifteen" id="fifteen">15%</button>
+          </div>
+          <div class="button1">
+            <button class="twenty" id="twenty">25%</button>
+            <button class="fifty" id="fifty">50%</button>
+            <button class="Custom" id="Custom">Custom</button>
+          </div>
+        </div>
+        <div class="people-count">
+          <div class="usericon">
+          <label for="Number">No.of People<span id="error1"</span></span></label><br />
+          <i class="fa fa-user icon"></i>
+          <input type="Number" class="people" id="people" placeholder="0" />
+        </div>
+        </div>
+      </div>
+      <div class="calc">
+        <div class="amount">
+          <div class="display">
+            <label for="tip"
+              >Tip Amount<br />
+              /person </label
+            ><br />
+            <output class="tip" id="tip" /><br />
+          </div>
+          <div class="display1">
+            <label for="totamt">Total<br />/person</label><br />
+            <output class="total" id="total" /><br />
+          </div>
+          <button  class="clear"  id="clear">RESET</button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  
+  </body>
+</html>

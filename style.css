@@ -1,0 +1,225 @@
+body {
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+}
+:root {
+  --clr-back: hsl(185, 41%, 84%);
+  --clr-back-content: hsl(0, 0%, 100%);
+  --clr-inp: hsl(184, 14%, 56%);
+  --clr-button: hsl(183, 100%, 15%);
+  --clr-display: hsl(172, 67%, 45%);
+  --clr-reset: hsl(186, 14%, 43%);
+}
+html {
+  background-color: black;
+}
+.container {
+  width: 500px;
+  height: 350px;
+  background-color: var(--clr-back);
+  margin-left: 230px;
+  margin-top: 130px;
+}
+h4 {
+  padding-top: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--clr-back-content);
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 10px 25px;
+}
+.content {
+  margin: 15px 10px;
+  padding: 5px 10px;
+}
+.calc {
+  width: 300px;
+}
+.amount {
+  background-color: var(--clr-button);
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 20px 15px;
+  padding: 10px 10px;
+  color: white;
+}
+/*.tip {
+  background-color: var(--clr-display);
+  border: none;
+  position: relative;
+  right: 30px;
+  bottom: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+}
+.total {
+  background-color: var(--clr-display);
+  position: relative;
+  left: 60px;
+  bottom: 30px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+}*/
+.billamount {
+  width: 157px;
+  height: 13px;
+  background-color: var(--clr-back);
+  border: none;
+  border-radius: 3px;
+  text-align: right;
+  justify-content: right;
+}
+.people {
+  width: 157px;
+  height: 13px;
+  background-color: var(--clr-back);
+  border: none;
+  border-radius: 3px;
+  text-align: right;
+  justify-content: right;
+}
+.people-count {
+  position: relative;
+  bottom: 20px;
+}
+.discountbutton {
+  margin-right: 30px;
+  margin-top: 10px;
+}
+.five {
+  background-color: var(--clr-button);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 3px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+.ten {
+  background-color: var(--clr-button);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 3px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+.fifteen {
+  background-color: var(--clr-button);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  position: relative;
+  bottom: 18px;
+  left: 112px;
+  padding: 3px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+.twenty {
+  background-color: var(--clr-button);
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  bottom: 15px;
+  color: white;
+  padding: 3px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+.fifty {
+  background-color: var(--clr-button);
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  bottom: 15px;
+  color: white;
+  padding: 3px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+.Custom {
+  background-color: var(--clr-back);
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  bottom: 33px;
+  left: 112px;
+  color: var(--clr-inp);
+  padding: 3px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+.button {
+  margin-top: 5px;
+}
+.clear {
+  margin-left: 15px;
+  background-color: var(--clr-reset);
+  border: none;
+  width: 170px;
+  border-radius: 3px;
+  color: var(--clr-button);
+}
+.total {
+  position: relative;
+  bottom: 25px;
+  left: 110px;
+  color: var(--clr-display);
+  font-size: 20px;
+}
+.tip {
+  position: relative;
+  bottom: 30px;
+  left: 110px;
+  color: var(--clr-display);
+  font-size: 20px;
+}
+.billicon i {
+  position: absolute;
+}
+.usericon i {
+  position: absolute;
+}
+.usericon {
+  width: 100%;
+}
+
+.billicon {
+  width: 100%;
+}
+
+.icon {
+  padding: 3px 3px;
+}
+#error {
+  position: relative;
+  left: 40px;
+  font-size: 10px;
+}
+#error1 {
+  position: relative;
+  left: 5px;
+  font-size: 7px;
+}
